@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <li>ToDo</li>
+            <!-- <li>day/night</li> -->
+            <!-- <button>click me</button> -->
+        </div>
+        <div class="all_list box">
+            <div id="head_list">All Todo's</div>
+            <div class="list"><ul id="lis"></ul></div>
+        </div>
+        <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">Add notes</div>
+              <div class="card__face card__face--back"><form action="">
+                <input type="text" placeholder="Add Task" id="heading">
+                <textarea name="" id="description" cols="30" rows="10" placeholder="Write some description"></textarea>
+                <!-- <input type="submit" name="Add"> -->
+                <input type="button" value="Add Task" onclick="Addtask()">
+                <input type="button" value="Go Back" onclick="flipcard()">
+                <!-- <button onclick="Addtask()">Add Task</button>
+                <button onclick="flipcard()">Go Back</button> -->
+            </form></div>
+            </div>
+          </div>
+        <!-- <div class="create box">
+            <div id="head_list">Add notes</div>
+            <div id="create">Click here to create notes</div>
+            <form action="">
+                <input type="text" placeholder="Add Task">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write some description"></textarea>
+            </form>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
